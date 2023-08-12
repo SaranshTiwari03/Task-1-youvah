@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Task-1-youvah/static/css/main.2525494c.css",
+    "main.js": "/Task-1-youvah/static/js/main.a85d0614.js",
+    "static/js/787.eb40d9a3.chunk.js": "/Task-1-youvah/static/js/787.eb40d9a3.chunk.js",
+    "static/media/CW-2.png": "/Task-1-youvah/static/media/CW-2.56d00da57886f949e564.png",
+    "static/media/CW-1.png": "/Task-1-youvah/static/media/CW-1.f809e922c9a326771b38.png",
+    "static/media/Frame 30479.png": "/Task-1-youvah/static/media/Frame 30479.5e1dd2a895a569f38b15.png",
+    "static/media/See where our students are interning.png": "/Task-1-youvah/static/media/See where our students are interning.c2a7021e9527204265b3.png",
+    "static/media/group-30277.svg": "/Task-1-youvah/static/media/group-30277.bf7227a1719ca272c0ee2e4a0f448a3f.svg",
+    "static/media/group-30276.svg": "/Task-1-youvah/static/media/group-30276.a7ae03341916f585cbb1a33fb8c40b6f.svg",
+    "static/media/group-30275.svg": "/Task-1-youvah/static/media/group-30275.f066f197e49dc23175ee8be0762b8910.svg",
+    "static/media/grahpic-element.svg": "/Task-1-youvah/static/media/grahpic-element.881bc09ab014a411578d2e289f39bd30.svg",
+    "index.html": "/Task-1-youvah/index.html",
+    "main.2525494c.css.map": "/Task-1-youvah/static/css/main.2525494c.css.map",
+    "main.a85d0614.js.map": "/Task-1-youvah/static/js/main.a85d0614.js.map",
+    "787.eb40d9a3.chunk.js.map": "/Task-1-youvah/static/js/787.eb40d9a3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2525494c.css",
+    "static/js/main.a85d0614.js"
+  ]
+}
