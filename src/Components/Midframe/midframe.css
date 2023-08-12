@@ -1,0 +1,21 @@
+
+.mf1 {
+
+    margin-top: 50px;
+    margin-left:15%;
+    align-items: center;
+    border: 1px solid;
+    margin-right:15%;
+   
+    gap: 32px;
+    height: 215px;
+    
+    width: 100%;
+  }
+  
+  .frame1 .img {
+    align-items: center;
+    flex: 0 0 auto;
+    position: relative;
+  }
+

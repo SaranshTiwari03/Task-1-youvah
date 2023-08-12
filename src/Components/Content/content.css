@@ -1,0 +1,22 @@
+.content{
+  margin-top: 60px;
+  position: relative;
+}
+
+.CT{
+  color: #FDFBFF;
+font-size: 36px;
+font-family: Gilroy-Bold;
+font-weight: 400;
+text-transform: capitalize;
+line-height: 54px;
+word-wrap: break-word
+}
+
+.CP{
+  color: #FDFBFF;
+font-size: 16px;
+font-family: Segoe UI;
+font-weight: 400;
+word-wrap: break-word
+}

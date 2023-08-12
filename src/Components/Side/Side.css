@@ -1,0 +1,196 @@
+.frame-parent13,
+.get-started {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.get-started {
+  flex: 1;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #b25aff, #7a27ca);
+  height: 56px;
+  padding: 12px 120px 8px;
+  box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Gilroy-Bold';
+  color: White;
+}
+.frame-parent13 {
+  position: relative;
+  top: 50px;
+  left: 60px;
+  width: 520px;
+  justify-content: flex-start;
+  gap: 24px;
+  font-family:  'Poppins';
+  color: White;
+}
+.start-up-icon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  z-index: 0;
+}
+.career-opportunities {
+  position: relative;
+  letter-spacing: -0.2px;
+  line-height: 20px;
+  text-transform: capitalize;
+  z-index: 1;
+}
+.group-icon {
+  position: absolute;
+  margin: 0 !important;
+  top: -16px;
+  left: -52px;
+  width: 44px;
+  height: 44px;
+  z-index: 2;
+}
+.start-up-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: 8px;
+}
+.life-time-access {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.life-time-access-life-time-acc {
+  margin: 0;
+  padding-left: 24px;
+}
+.life-time-access-container {
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-family: inherit;
+}
+.frame-parent14 {
+  position: relative;
+  top: 30px;
+  left: 60px;
+  border-radius: 12px;
+  background-color: #33307b;
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+  font-size: 24px;
+  color: #eee;
+}
+.education-icon {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  z-index: 0;
+}
+.course-includes {
+  position: relative;
+  line-height: 24px;
+  z-index: 1;
+}
+.frame-parent15 {
+  margin-top: 35px;
+  position: relative;
+  top: 30px;
+  left: 60px;
+  border-radius: 12px;
+  background-color: #1d243f;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 520px;
+  height: 136px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 24px;
+  color: #eee;
+}
+.title {
+  position: relative;
+  line-height: 125%;
+  z-index: 1;
+}
+.content-designing-content-container {
+  position: relative;
+  font-size: inherit;
+  line-height: 150%;
+  font-family: inherit;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 353px;
+}
+.frame-parent16 {
+  position: relative;
+  top: 50px;
+  left: 60px;
+  border-radius: 12px;
+  background-color: #27295b;
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  text-align: center;
+  font-size: 24px;
+  color: #eee;
+}
+
+.span {
+  text-decoration: line-through;
+}
+.offf {
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text1 {
+  position: relative;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+.div {
+  position: relative;
+  color: #FDFBFF;
+font-size: 32px;
+font-family: 'Poppins';
+font-weight: 600;
+line-height: 48px;
+word-wrap: break-word
+}
+
+
+.side{
+  width: 600px;
+  height: 1000px;
+  border: #1d243f;
+  margin-top: 40px;
+}
