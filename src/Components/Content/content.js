@@ -4,12 +4,12 @@ import'./content.css';
 
 function content() {
   return (
-    <div className="content" style={{width: 654, height: 700, padding: 10, background: '#202C38', boxShadow: '5px 4px 39px rgba(0, 0, 0, 0.25)', borderRadius: 20, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'inline-flex', position :'relative'}}>
-  <div style={{width: 546, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+    <div className="content" >
+        <div className='content2' style={{width: 546, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
      <h1 className='CT'>Content :
      <p className='CP'>12 lessons• 2hr 3min •</p>
      </h1>
-     <div className="CTT">
+      <div className="CTT">
         <div style={{width: 500, height: 25, justifyContent: 'flex-start', alignItems: 'center', gap: 173, display: 'inline-flex'}}>
           <div style={{height: 34, justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'flex'}}>
             <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
@@ -96,7 +96,7 @@ function content() {
     
    
   </div>
-  <button style={{width: 164, height: 56, paddingLeft: 36, paddingRight: 36, borderRadius: 8, border: '1.50px #B25AFF solid', justifyContent: 'center', alignItems: 'center', display: 'inline-flex',backgroundColor:"#00000000"}}>
+  <button className='Butt1' style={{width: 164, height: 56, paddingLeft: 36, paddingRight: 36, borderRadius: 8, border: '1.50px #B25AFF solid', justifyContent: 'center', alignItems: 'center', display: 'inline-flex',backgroundColor:"#00000000"}}>
   <div style={{textAlign: 'center', color: '#FDFBFF', fontSize: 18, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 20, wordWrap: 'break-word'}}>View All</div>
 </button>
 </div>

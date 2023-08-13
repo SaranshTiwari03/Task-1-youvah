@@ -1,6 +1,25 @@
 .content{
   margin-top: 60px;
   position: relative;
+  width: 654px;
+   height: 700px;
+    padding: 10;
+     background-color: #202C38;
+      box-shadow: 5px 4px 39px rgba(0, 0, 0, 0.25);
+       border-Radius: 20px;
+        flex-Direction: column;
+         justify-Content: center;
+          align-Items: center; 
+          gap: 5px; 
+          display: inline-flex; 
+}
+.content.content2{
+  width: 546px;
+   flex-Direction: column;
+    justify-Content: flex-start; 
+    align-Items: flex-start; 
+    gap: 10;
+     display: flex;
 }
 
 .CT{
@@ -20,3 +39,25 @@ font-family: Segoe UI;
 font-weight: 400;
 word-wrap: break-word
 }
+
+
+@media screen and (max-width: 768px) {
+  .CT{
+    font-size: 15px;
+    
+  }
+  .CP{
+    font-size: 8px;
+    
+  }
+  .CTT{
+    width: 10%;
+    height: 70% ;
+    font-size:9px
+  }
+  .content{
+    width: 400px;
+    height: 550px;
+    margin-left: 25%;
+  }
+} 

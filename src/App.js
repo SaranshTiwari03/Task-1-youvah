@@ -6,11 +6,11 @@ import Content from './Components/Content/content'
 import Side from './Components/Side/Side';
 function App() {
   return (
-    <div className="body" style={{alignItems: 'center'}}>
+    <div className="body" >
       <div className="c1">
       <Topbar/>
       <Midframe/>
-      <div className="C2">
+      <div className="C2" style={{alignItem:'center'}}>
         <div className="d1">
        <Content/> 
        </div>
