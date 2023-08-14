@@ -2,12 +2,31 @@ import React from 'react'
 import './Topbar.css';
 import CW1 from '../Assets/CW-1.png';
 import CW2 from '../Assets/CW-2.png';
-import GE from '../Assets/grahpic-element.svg'
+import CW3 from '../Assets/CW1.1.png';
+import CW4 from '../Assets/CW.1.2.png';
+import GE  from '../Assets/grahpic-element.svg';
 
 function Topbar() {
   return (
        <div className='Topbar'>
-          <img className='CW1' src={CW1} alt="" style={{borderRadius:'20px'}}/>
+        
+         <picture >
+         <source style={{width:'350px'}}
+          
+          media="(max-width: 480px)"
+          srcset={CW4}
+          />
+          <source 
+          
+          media="(max-width: 768px)"
+          srcset={CW3}
+          />
+          
+          <img className='CW1' src={CW1} alt="" /> 
+          
+          </picture> 
+          
+          
           <div className="frame">
               <div className="div1 my-4">
               
@@ -26,7 +45,15 @@ function Topbar() {
           </div>
           
        </div>
-       <img className='CW1' src={CW2} alt="" style={{borderRadius:'20px'}} />
+       <picture>
+          <source
+          
+          media="(max-width: 768px)"
+          srcset=""
+          />
+          <img className='CW2' src={CW2} alt="" /> 
+          
+          </picture> 
        </div>
     
   )

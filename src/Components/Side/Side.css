@@ -194,3 +194,60 @@ word-wrap: break-word
   border: #1d243f;
   margin-top: 40px;
 }
+
+
+@media screen and (max-width: 768px) {
+  .side{
+    width: 600px;
+    height: 1000px;
+    margin-left: 8%;
+    
+  }
+  .frame-parent16{
+    width:450px
+
+  }
+  .frame-parent15{
+    width:450px
+
+  }
+  .frame-parent14{
+    width:450px
+
+  }
+  .frame-parent13{
+    width:450px
+
+  }
+}
+@media screen and (max-width: 480px) {
+  .side{
+    width: 400px;
+    height: 800px;
+    margin-left: 10%;
+    
+  }
+  .frame-parent16{
+    width:300px;
+    margin-left: 8%;
+  }
+  .frame-parent15{
+    width:300px;
+    margin-left: 8%;
+
+  }
+  .frame-parent14{
+    width:300px;
+    margin-left: 8%;
+  }
+  .frame-parent13{
+    width:300px
+
+  }
+  .get-started{
+    width: 100px;
+  }
+  .text1{
+    width: 100px;
+  }
+}

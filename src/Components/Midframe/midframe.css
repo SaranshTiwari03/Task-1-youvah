@@ -1,16 +1,22 @@
 
 .mf1 {
-
+    width: 70%;
     margin-top: 50px;
     margin-left:15%;
     align-items: center;
-    border: 1px solid;
     margin-right:15%;
-   
     gap: 32px;
     height: 215px;
+    box-Shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border: 0.50px black solid; 
+    flex-Direction: column; 
+    align-Items: center;
+     
+     display: inline-flex;
+    border-Radius:5px;
+    position: relative;
     
-    width: 100%;
+    
   }
   
   .frame1 .img {
@@ -18,4 +24,27 @@
     flex: 0 0 auto;
     position: relative;
   }
+ .See{
+  color: #ECECEC;
+   font-Size: 32px;
+    font-Family: 'Gilroy-SemiBold';
+     font-Weight: 400;
+      line-Height: 48px;
+       word-Wrap: break-word;
+ }
 
+
+ @media screen and (max-width: 768px) {
+    .img{
+      width:90%
+
+    }
+    .See{
+      font-size: 22px;
+    }
+    .mf1{
+      height: 175px;
+      margin-left: 15%;
+    }
+  
+ }

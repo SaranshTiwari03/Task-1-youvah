@@ -2,11 +2,11 @@
     background-color: #202c38;
   
   height: 276px;
-  width: 100%;
+  width: 1300px;
   display: flex;
   flex-direction: Row;
   
-  border-radius:'20px';
+  border-radius:20px;
   margin-top: 50px;
 }
 .Topbar .div1 {
@@ -56,25 +56,91 @@
     overflow: hidden;
     max-height: 100%;
   }
-  @media screen and (max-width: 608px) {
+
+  .CW1{
+    border-Radius:20px;
+    height: 276px;
+  }
+  .CW2{
+    border-Radius:20px;
+    height: 276px;
+  }
+  .Topbar.CW5{
+    width: 70%;
+  }
+  
+  @media screen and (max-width: 768px) {
     .Topbar{
       flex-direction: column;
-      width: 500px;
-      height: 800px;
+      width: 442px;
+      height: 550px;
+      margin-left: 16%;
+      margin-right: 16%;
     }
     .CW2{
         width:100%;
-        height:20%;
+        height:0%;
     }
     .CW1{
-      
+      border-Radius:20px;
     }
+    
+    .Topbar .text-wrapper1{
+      font-size: 25px;
+      margin-right: 35px;
+    }
+
+    .Topbar .p{
+      font-size: 15px;
+      width: 440px;
+    }
+    .grahpic-element-icon{
+      position: absolute;
+    height: 15.59%;
+    width: 15.8%;
+    top: -10%;
+    right: 29.93%;
+    bottom: 78.98%;
+    left: 82.26%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+
+    } 
   }
   @media screen and (max-width: 480px) {
     .Topbar{
       flex-direction: column;
-      width: auto;
-      height: auto;
+      width: 350px;
+      height: 550px;
+      margin-left: 20%;
     }
-    
+    .CW3{
+      width: 350px;
+      height: 200px;
+    } 
+    .Topbar .text-wrapper1{
+      font-size: 25px;
+      margin-right: 15px;
+    }
+    .CW5{
+      width: 250px;
+    }
+    .Topbar .p{
+      font-size: 15px;
+      width: 300px;
+    }
+    .grahpic-element-icon{
+      position: absolute;
+    height: 15.59%;
+    width: 15.8%;
+    top: -10%;
+    right: 29.93%;
+    bottom: 78.98%;
+    left: 82.26%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+
+    } 
   }

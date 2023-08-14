@@ -43,12 +43,12 @@ word-wrap: break-word
 
 @media screen and (max-width: 768px) {
   .CT{
-    font-size: 15px;
-    
+    font-size: 26px;
+    width: 500px;
   }
   .CP{
-    font-size: 8px;
-    
+    font-size: 12px;
+    width: 500px;
   }
   .CTT{
     width: 10%;
@@ -56,8 +56,8 @@ word-wrap: break-word
     font-size:9px
   }
   .content{
-    width: 400px;
-    height: 550px;
-    margin-left: 25%;
+    width: 600px;
+    height: 650px;
+    margin-left: 10%;
   }
 } 
