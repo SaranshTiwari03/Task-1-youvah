@@ -111,14 +111,14 @@
   @media screen and (max-width: 480px) {
     .Topbar{
       flex-direction: column;
-      width: 350px;
+      width: 443px;
       height: 550px;
-      margin-left: 8%;
+      margin-left: -3%;
     }
   
     .Topbar .text-wrapper1{
       font-size: 25px;
-      margin-right: 15px;
+      margin-left: 23px;
     }
     .CW5{
       width: 250px;
@@ -134,7 +134,7 @@
     top: -10%;
     right: 29.93%;
     bottom: 78.98%;
-    left: 82.26%;
+    left: 84.26%;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
