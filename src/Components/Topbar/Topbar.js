@@ -3,7 +3,7 @@ import './Topbar.css';
 import CW1 from '../Assets/CW-1.png';
 import CW2 from '../Assets/CW-2.png';
 import CW3 from '../Assets/CW1.1.png';
-import CW4 from '../Assets/CW.1.2.png';
+import CW4 from '../Assets/CW1.2.png';
 import GE  from '../Assets/grahpic-element.svg';
 
 function Topbar() {
@@ -11,11 +11,11 @@ function Topbar() {
        <div className='Topbar'>
         
          <picture >
-         <source style={{width:'350px'}}
+         {/* <source 
           
           media="(max-width: 480px)"
           srcset={CW4}
-          />
+          /> */}
           <source 
           
           media="(max-width: 768px)"

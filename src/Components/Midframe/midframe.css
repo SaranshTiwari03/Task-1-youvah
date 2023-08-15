@@ -40,11 +40,26 @@
 
     }
     .See{
-      font-size: 22px;
+      font-size: 19px;
     }
     .mf1{
       height: 175px;
-      margin-left: 15%;
+      margin-left: 12%;
     }
   
  }
+ @media screen and (max-width: 480px) {
+  .img{
+    width:90%
+
+  }
+  .See{
+    font-size: 19px;
+   
+  }
+  .mf1{
+    height: 175px;
+    margin-left: 5%;
+  }
+
+}

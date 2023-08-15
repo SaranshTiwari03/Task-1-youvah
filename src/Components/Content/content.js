@@ -10,7 +10,7 @@ function content() {
      <p className='CP'>12 lessons• 2hr 3min •</p>
      </h1>
       <div className="CTT">
-        <div style={{width: 500, height: 25, justifyContent: 'flex-start', alignItems: 'center', gap: 173, display: 'inline-flex'}}>
+      <div className="CPT2" >
           <div style={{height: 34, justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'flex'}}>
             <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
               <div style={{width: 34, height: 34, position: 'relative', borderRadius: 17, border: '0.50px #CCCCCC solid'}}>
@@ -21,10 +21,10 @@ function content() {
           </div>
              <div style={{width: 82, height: 16, textAlign: 'center', color: 'white', fontSize: 12, fontFamily: 'Segoe UI', fontWeight: '400', wordWrap: 'break-word'}}>2hr 3min • </div>
         </div>
-        <hr style={{width: 540, height: 1, border: '1px dashed white'}}/>
+        <hr className='HR' />
       </div>
       <div className="CTT">
-        <div style={{width: 500, height: 25, justifyContent: 'flex-start', alignItems: 'center', gap: 190, display: 'inline-flex'}}>
+        <div className="CPT1" >
           <div style={{height: 34, justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'flex'}}>
             <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
               <div style={{width: 34, height: 34, position: 'relative', borderRadius: 17, border: '0.50px #CCCCCC solid'}}>
@@ -35,10 +35,10 @@ function content() {
           </div>
              <div style={{width: 82, height: 16, textAlign: 'center', color: 'white', fontSize: 12, fontFamily: 'Segoe UI', fontWeight: '400', wordWrap: 'break-word'}}>2hr 3min • </div>
         </div>
-        <hr style={{width: 540, height: 1, border: '1px dashed white'}}/>
+        <hr className='HR' />
       </div>
       <div className="CTT">
-        <div style={{width: 500, height: 25, justifyContent: 'flex-start', alignItems: 'center', gap: 268, display: 'inline-flex'}}>
+      <div className="CPT3" >
           <div style={{height: 34, justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'flex'}}>
             <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
               <div style={{width: 34, height: 34, position: 'relative', borderRadius: 17, border: '0.50px #CCCCCC solid'}}>
@@ -49,10 +49,10 @@ function content() {
           </div>
              <div style={{width: 82, height: 16, textAlign: 'center', color: 'white', fontSize: 12, fontFamily: 'Segoe UI', fontWeight: '400', wordWrap: 'break-word'}}>2hr 3min • </div>
         </div>
-        <hr style={{width: 540, height: 1, border: '1px dashed white'}}/>
+        <hr className='HR' />
       </div>
       <div className="CTT">
-        <div style={{width: 500, height: 25, justifyContent: 'flex-start', alignItems: 'center', gap: 125, display: 'inline-flex'}}>
+      <div className="CPT4" >
           <div style={{height: 34, justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'flex'}}>
             <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
               <div style={{width: 34, height: 34, position: 'relative', borderRadius: 17, border: '0.50px #CCCCCC solid'}}>
@@ -63,10 +63,10 @@ function content() {
           </div>
              <div style={{width: 82, height: 16, textAlign: 'center', color: 'white', fontSize: 12, fontFamily: 'Segoe UI', fontWeight: '400', wordWrap: 'break-word'}}>2hr 3min • </div>
         </div>
-        <hr style={{width: 540, height: 1, border: '1px dashed white'}}/>
+        <hr className='HR' />
       </div>
       <div className="CTT">
-        <div style={{width: 500, height: 25, justifyContent: 'flex-start', alignItems: 'center', gap: 240, display: 'inline-flex'}}>
+      <div className="CPT5" >
           <div style={{height: 34, justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'flex'}}>
             <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
               <div style={{width: 34, height: 34, position: 'relative', borderRadius: 17, border: '0.50px #CCCCCC solid'}}>
@@ -77,10 +77,10 @@ function content() {
           </div>
              <div style={{width: 82, height: 16, textAlign: 'center', color: 'white', fontSize: 12, fontFamily: 'Segoe UI', fontWeight: '400', wordWrap: 'break-word'}}>2hr 3min • </div>
         </div>
-        <hr style={{width: 540, height: 1, border: '1px dashed white'}}/>
+        <hr className='HR' />
       </div>
       <div className="CTT">
-        <div style={{width: 500, height: 25, justifyContent: 'flex-start', alignItems: 'center', gap: 130, display: 'inline-flex'}}>
+      <div className="CPT6" >
           <div style={{height: 34, justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'flex'}}>
             <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
               <div style={{width: 34, height: 34, position: 'relative', borderRadius: 17, border: '0.50px #CCCCCC solid'}}>

@@ -20,7 +20,8 @@
 .C2{
   display:flex;
   position: relative;
-  width:100%
+  width:100%;
+  
 
 }
 
@@ -28,4 +29,21 @@
   .C2{
     flex-direction: column;
   }
+  .body{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+
+} 
+@media screen and (max-width: 480px) {
+  .C2{
+    flex-direction: column;
+  }
+  .body{
+    width: 480px;
+    height: auto;
+    justify-content: center;
+  }
+
 } 

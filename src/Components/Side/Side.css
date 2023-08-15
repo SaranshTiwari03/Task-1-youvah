@@ -224,7 +224,7 @@ word-wrap: break-word
   .side{
     width: 400px;
     height: 800px;
-    margin-left: 10%;
+    margin-left: -10%;
     
   }
   .frame-parent16{
@@ -241,8 +241,8 @@ word-wrap: break-word
     margin-left: 8%;
   }
   .frame-parent13{
-    width:300px
-
+    width:300px;
+    margin-right: 5px;
   }
   .get-started{
     width: 100px;

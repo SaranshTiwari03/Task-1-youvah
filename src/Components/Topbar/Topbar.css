@@ -2,7 +2,7 @@
     background-color: #202c38;
   
   height: 276px;
-  width: 1300px;
+  width: 1200px;
   display: flex;
   flex-direction: Row;
   
@@ -74,7 +74,7 @@
       flex-direction: column;
       width: 442px;
       height: 550px;
-      margin-left: 16%;
+      margin-left: 12%;
       margin-right: 16%;
     }
     .CW2{
@@ -113,12 +113,9 @@
       flex-direction: column;
       width: 350px;
       height: 550px;
-      margin-left: 20%;
+      margin-left: 8%;
     }
-    .CW3{
-      width: 350px;
-      height: 200px;
-    } 
+  
     .Topbar .text-wrapper1{
       font-size: 25px;
       margin-right: 15px;
